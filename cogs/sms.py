@@ -41,7 +41,7 @@ class sms_cog(commands.Cog):
 
                 try:
                     telnyx.Message.create(
-                        api_key="KEY017D5DF420FA67BBD34799733F3046BD_6jXjx2HPmtFLjDQEm90tSH",
+                        api_key="",
                         from_="+15804031129",
                         to=f"+1{number}",
                         text=text,
@@ -74,7 +74,7 @@ class sms_cog(commands.Cog):
     def search_number(self, number):
         requests.adapters.DEFAULT_RETRIES = 10
 
-        api_key = "KEY017D5DF420FA67BBD34799733F3046BD_6jXjx2HPmtFLjDQEm90tSH"
+        api_key = ""
 
         valid_number = re.findall(r"(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4})", str(number))
         if valid_number:
