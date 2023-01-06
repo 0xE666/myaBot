@@ -1,0 +1,18 @@
+{
+    "bot_config": {
+        "bot_version": 1.4,
+        "bot_token": "",
+        "bot_id": "",
+        "owner_id": "",
+        "owner_log": "",
+        "white_listed": [
+        ],
+        "safe_whitelist": [
+            "",
+            ""
+        ],
+        "bot_color": "3092790",
+        "bot_hex": "2f3136",
+        "uwu_locked": []
+    }
+}
