@@ -1,6 +1,5 @@
 
 from ast import Delete
-from this import d
 import discord, time
 from discord.ext import commands
 from typing import Union, Any, Callable, Tuple, List, Coroutine, Optional
